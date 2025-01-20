@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+        }
+        body {
+            background: url(https://t3.ftcdn.net/jpg/02/35/46/14/360_F_235461431_LVvh4dVGEdS44wNHI0kyrLOJouNqj2iv.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        header{
+            background-color: #6b050a;
+            color: #f5f5f1;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            padding: 10px;
+        }
+        .home{
+            color: white;
+            font-size: 40px;
+            font-weight: 800;
+        }
+        .home:hover{
+            text-shadow: 0 0 10px #ffffff;
+        }
+        .main-container {
+            width: 400px;
+            height: fit-content;
+            padding: 20px;
+            background: transparent;
+            backdrop-filter: blur(2px);
+             border: 2px solid #E50914;
+            border-radius: 40px;
+            box-shadow: 0 0 30px #E50914;
+            backdrop-filter: blur(10px);
+            color: #121212;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            border-radius: 50px;
+            border: 2px solid #ffffff;
+            background: transparent;
+        }
+        .search-box:hover{
+            box-shadow: 0 0 10px #ffffff;
+        }
+        .search-btn {
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            position: absolute;
+            right: 40px;
+            font-weight: 800;
+            font-size: larger;
+        }
+        .movie-poster {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border: 1px solid #EFBF04;
+            box-shadow: 0 0 10px #EFBF04;
+        }
+        .movie-info {
+            display: none;
+            margin: 20px;
+            text-align: center;
+        }
+        .movie-title {
+            font-size: 35px;
+            font-weight: 900;
+            border: 2px solid #ffffff;
+            box-shadow: 0 0 10px #ffffff;
+        }
+        .movie-details {
+            font-size: 16px;
+            margin-top: 10px;
+            text-align: left;
+        }
+        .not-found {
+            display: none;
+            font-size: 18px;
+            text-align: center;
+        }

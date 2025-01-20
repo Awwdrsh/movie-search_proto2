@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Info App</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2798/2798007.png" type="image/x-icon">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"></h2>
+        <a href="index.html" class="home"><i class='bx bx-movie-play'></i></a>
+    </header>
+    <div class="main-container">
+        <div class="search-container">
+            <input class="search-box" type="text" placeholder="Search Movie" id="movie">
+            <button class="search-btn" id="btn">
+                <i class="bx bx-search"></i>
+            </button>
+        </div>
+        <div class="movie-info">
+            <h1 class="movie-title"></h1>
+            <img class="movie-poster" src="" alt="Movie Poster">
+            <div class="movie-details">
+                <p class="movie-year"></p>
+                <p class="movie-genre"></p>
+                <p class="movie-director"></p>
+                <p class="movie-actors"></p>
+                <p class="movie-plot"></p>
+            </div>
+        </div>
+        <div class="not-found">
+            <h1>Movie Not Found</h1>
+            <p>Please try a different movie name.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

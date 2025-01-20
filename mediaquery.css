@@ -1,0 +1,36 @@
+@media (max-width:400px) and (min-width: 250px) {
+        
+        body {
+            background: url(https://t3.ftcdn.net/jpg/02/35/46/14/360_F_235461431_LVvh4dVGEdS44wNHI0kyrLOJouNqj2iv.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            height: 100vh;
+        }
+        header{
+            background: transparent;
+            height: 70px;
+        }
+        .home{
+            color: white;
+            font-weight: 900;
+            font-size: 50px;
+        }
+        .main-container {
+            width: 200px;
+            position: relative;
+        }
+        .movie-poster {
+            width: 70px;
+            height: 70px;
+        }
+        .movie-title {
+            font-size: 7px;
+        }
+        .movie-details {
+            font-size: 9px;
+        }
+        .not-found {
+            font-size: 10px;
+        }
+}
